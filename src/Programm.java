@@ -19,7 +19,7 @@ class MyProgramm extends JFrame {
                 winner = "AC Milan";
                 WinnerLabel.setText("Winner: " + winner);
                 getContentPane().setBackground(Color.RED);
-                ResultJLabel.setForeground(Color.BLACK);
+                ResultJLabel.setForeground(Color.BLACK); // весь цвет не нужен!
                 LastScorerJLabel.setForeground(Color.BLACK);
 
             } else if(milanScore == madridScore) {
